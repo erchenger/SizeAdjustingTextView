@@ -16,7 +16,6 @@ widget and thats it. From there you need to make sure that you set a text size a
         android:layout_width="fill_parent"
         android:layout_height="100dp"
         android:id="@+id/topBox"
-        android:text="@string/hello_world"
         android:layout_below="@id/text_input"
         android:gravity="center"
         android:padding="0dp"

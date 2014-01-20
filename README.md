@@ -8,7 +8,7 @@ and to possibly add some features and functionality.
 
 ## Usage
 To use the SizeAdjustingTextView make sure you have the custom view in somewhere in your project.
-From there when using XML Layouts you can simply use the <b>com.some.package.name.AutoAdjustingTextView</b>
+From there when using XML Layouts you can simply use the <b>com.some.package.name.SizeAdjustingTextView</b>
 widget and thats it. From there you need to make sure that you set a text size as the baseline for the view. 
 
 ```XML

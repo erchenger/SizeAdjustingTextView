@@ -15,7 +15,9 @@ import android.widget.TextView.OnEditorActionListener;
 public class MainActivity extends Activity {
 	
 	private EditText mMessageEditText;
-	private SizeAdjustingTextView mTopMessageBox;
+	private SizeAdjustingTextView mTopMessageBox, 
+	mMiddleLeftBox, mMiddleRightBox, mBottomLeftBox, 
+	mBottomMiddleBox, mBottomRightBox;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +28,12 @@ public class MainActivity extends Activity {
 		mMessageEditText.setOnEditorActionListener(actionListener);
 		mTopMessageBox = (SizeAdjustingTextView)findViewById(R.id.topBox);
 		
+		mMiddleLeftBox = (SizeAdjustingTextView)findViewById(R.id.middleLeftBox);
+		mMiddleRightBox = (SizeAdjustingTextView)findViewById(R.id.middleRightBox);
 		
+		mBottomLeftBox = (SizeAdjustingTextView)findViewById(R.id.bottomLeftBox);
+		mBottomMiddleBox = (SizeAdjustingTextView)findViewById(R.id.bottomMiddleBox);
+		mBottomRightBox = (SizeAdjustingTextView)findViewById(R.id.bottomRightBox);
 	}
 
 	@Override
@@ -52,7 +59,12 @@ public class MainActivity extends Activity {
 	};
 	
 	private void moveText() {
-		
+
+		TextMover.moveTextFromCellToCell(mBottomMiddleBox, mBottomRightBox);
+		TextMover.moveTextFromCellToCell(mBottomLeftBox, mBottomMiddleBox);
+		TextMover.moveTextFromCellToCell(mMiddleRightBox, mBottomLeftBox);
+		TextMover.moveTextFromCellToCell(mMiddleLeftBox, mMiddleRightBox);
+		TextMover.moveTextFromCellToCell(mTopMessageBox, mMiddleLeftBox);
 		String incomingText = mMessageEditText.getText().toString();
 		TextMover.moveNewTextIntoCell(mTopMessageBox, incomingText);
 		

@@ -9,13 +9,7 @@ and to possibly add some features and functionality.
 ## Usage
 To use the SizeAdjustingTextView make sure you have the custom view somewhere in your project.
 From there when using XML Layouts you can simply use the <b>com.some.package.name.SizeAdjustingTextView</b>
-widget and thats it. From there you need to make sure that you set a text size as the baseline for the view. Lastly when using custom views in XML, make sure you have the XLMNS tag in the root of the layout tag. 
-
-I didn't want to make this a library because there is no need for adding a library for one view. Just port over the SizeAdjustingTextView and you should be good. 
-
-```XML
- xmlns:app="http://schemas.android.com/apk/res/com.example.SizeAdjustingTextView"
-```
+widget and thats it. From there you need to make sure that you set a text size as the baseline for the view. 
 ```XML
 <com.example.sizeadjustingtextview.view.SizeAdjustingTextView
         android:layout_width="fill_parent"
@@ -26,3 +20,12 @@ I didn't want to make this a library because there is no need for adding a libra
         android:padding="0dp"
         android:textSize="60sp" />
 ```
+Lastly when using custom views in XML, make sure you have the XLMNS tag in the root of the layout tag. 
+```XML
+ xmlns:app="http://schemas.android.com/apk/res/com.example.SizeAdjustingTextView"
+```
+
+I didn't want to make this a library because there is no need for adding a library for one view. Just port over the SizeAdjustingTextView and you should be good. 
+
+
+

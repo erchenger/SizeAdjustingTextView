@@ -1,6 +1,6 @@
 package com.elliott.chenger.autosizingtextexampleproject.utils;
 
-import com.elliott.chenger.autosizingtextexampleproject.view.SizeAdjustingTextView;
+import com.omitneedlesscode.sizeadjustingtextview.SizeAdjustingTextView;
 
 /**
  * Created by chenger on 5/26/14.

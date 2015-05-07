@@ -17,7 +17,7 @@
         android:inputType="textCapSentences" />
 
     <!-- Top Row -->
-    <com.elliott.chenger.autosizingtextexampleproject.view.SizeAdjustingTextView
+    <com.omitneedlesscode.sizeadjustingtextview.SizeAdjustingTextView
         android:id="@+id/topBox"
         android:layout_width="fill_parent"
         android:layout_height="100dp"
@@ -35,7 +35,7 @@
         android:orientation="horizontal"
         android:layout_below="@id/topBox" >
 
-        <com.elliott.chenger.autosizingtextexampleproject.view.SizeAdjustingTextView
+        <com.omitneedlesscode.sizeadjustingtextview.SizeAdjustingTextView
             android:id="@+id/middleLeftBox"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
@@ -44,7 +44,7 @@
             android:padding="0dp"
             android:textSize="60sp" />
 
-        <com.elliott.chenger.autosizingtextexampleproject.view.SizeAdjustingTextView
+        <com.omitneedlesscode.sizeadjustingtextview.SizeAdjustingTextView
             android:id="@+id/middleRightBox"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
@@ -61,7 +61,7 @@
         android:layout_height="100dp"
         android:layout_below="@id/middleRow" >
 
-        <com.elliott.chenger.autosizingtextexampleproject.view.SizeAdjustingTextView
+        <com.omitneedlesscode.sizeadjustingtextview.SizeAdjustingTextView
             android:id="@+id/bottomLeftBox"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
@@ -70,7 +70,7 @@
             android:padding="0dp"
             android:textSize="60sp" />
 
-        <com.elliott.chenger.autosizingtextexampleproject.view.SizeAdjustingTextView
+        <com.omitneedlesscode.sizeadjustingtextview.SizeAdjustingTextView
             android:id="@+id/bottomMiddleBox"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
@@ -79,7 +79,7 @@
             android:padding="0dp"
             android:textSize="60sp" />
 
-        <com.elliott.chenger.autosizingtextexampleproject.view.SizeAdjustingTextView
+        <com.omitneedlesscode.sizeadjustingtextview.SizeAdjustingTextView
             android:id="@+id/bottomRightBox"
             android:layout_width="0dp"
             android:layout_height="fill_parent"

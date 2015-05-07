@@ -1,4 +1,4 @@
-package com.elliott.chenger.autosizingtextexampleproject.view;
+package com.omitneedlesscode.sizeadjustingtextview;
 import android.content.Context;
 import android.text.Layout.Alignment;
 import android.text.StaticLayout;

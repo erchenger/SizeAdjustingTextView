@@ -11,7 +11,7 @@ import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 
 import com.elliott.chenger.autosizingtextexampleproject.utils.TextMover;
-import com.elliott.chenger.autosizingtextexampleproject.view.SizeAdjustingTextView;
+import com.omitneedlesscode.sizeadjustingtextview.SizeAdjustingTextView;
 
 public class MainActivity extends Activity {
 
